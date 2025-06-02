@@ -13,7 +13,7 @@ spec:
       name: frontend-pod
       namespace: chat-app
       labels:
-        app: chat-app
+        app: frontend
     spec:
       containers:
         - name: frontend-container
